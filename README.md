@@ -1,6 +1,6 @@
 # 🧩 Ejercicios Guiados 2
 
-Repositorio de actividades prácticas para reforzar conceptos de **Programación Orientada a Objetos en Java** y estructuras de datos, a través de ejercicios guiados y dinámicas colaborativas.
+Repositorio de actividades prácticas para reforzar conceptos de **Estructuras De Datos**, a través de ejercicios guiados.
 
 ---
 
@@ -82,6 +82,80 @@ En esta práctica se exploró el funcionamiento de una **pila dinámica**, obser
 ---
 
 🧷 *Actividad guiada realizada en [Visualgo.net](https://visualgo.net/en/list) para reforzar el concepto de pila (LIFO) mediante simulación visual.*
+
+---
+
+## 🧩 Actividad 3 – Listas Enlazadas (Simples, Dobles y Circulares)
+
+## 🧙‍♂️ Dinámica: La Lista Encantada – Lista Simplemente Enlazada
+
+**Objetivo:** Visualizar cómo cada nodo apunta solo al siguiente nodo y cómo se modifican los enlaces al insertar o eliminar.
+
+**Lista inicial:**
+
+[Ana] → [Benjamín] → [Carla] → [Diego] → NULL
+
+
+Procedimiento físico:
+
+Escribir cada nombre en una tarjeta [DATO | →].
+
+Unir con hilo rojo hacia el siguiente nodo.
+
+Marcar el último con NULL.
+
+Insertar el nodo Elena entre Carla y Diego.
+
+Insertar el nodo Dalia al final de la lista.
+
+Eliminar el nodo Benjamín.
+
+Pseudocódigo:
+
+Creación
+Inicio
+  CrearNodo(Ana)
+  CrearNodo(Benjamín)
+  CrearNodo(Carla)
+  CrearNodo(Diego)
+  Ana.sig = Benjamín
+  Benjamín.sig = Carla
+  Carla.sig = Diego
+  Diego.sig = NULL
+Fin
+
+Inserción (Elena entre Carla y Diego)
+  nuevo = CrearNodo(Elena)
+  nuevo.sig = Carla.sig
+  Carla.sig = nuevo
+
+Eliminación (Benjamín)
+  aux = Ana
+  Mientras aux.sig ≠ NULL Hacer
+    Si aux.sig.dato = "Benjamín" Entonces
+      aux.sig = aux.sig.sig
+      Romper
+    FinSi
+    aux = aux.sig
+  FinMientras
+
+
+## 📸 Evidencia:
+
+| Momento                           | Descripción / Imagen               |
+| --------------------------------- | ---------------------------------- |
+| Representación física de la lista | `ListaEnlazada.jpg`                |
+| Inserción de “Elena”              | `InsertElena.jpg`                  |
+| Inserción de “Dalia”              | `InsertDalia.jpg`                  |
+| Eliminación de “Benjamín”         | `EliminarBenjamin.jpg`             |
+| Pseudocódigo                      | Captura o snippet del pseudocódigo |
+
+
+Esta actividad permite entender la relación entre nodos y cómo se afectan al insertar o eliminar elementos.
+
+Facilita la traducción de la manipulación física de nodos a pseudocódigo y Java.
+
+Se puede extender para listas dobles o circulares modificando los enlaces de los nodos.
 
 
 
