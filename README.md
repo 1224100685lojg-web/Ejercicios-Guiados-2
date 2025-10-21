@@ -75,9 +75,9 @@ En esta práctica se exploró el funcionamiento de una **pila dinámica**, obser
 📸 *Evidencia:*
 | Acción | Imagen |
 |--------|--------|
-| Inserción con **Push** | ![Push Visualgo](visualgo1.jpg) |
-| Eliminación con **Pop** | ![Pop Visualgo](visualgo2.jpg) |
-| Imprimir con **Peek** | ![Push Visualgo](visualgo3.jpg) |
+| Inserción con **Push** | ![Push Visualgo](visualgo1.jpg.png) |
+| Eliminación con **Pop** | ![Pop Visualgo](visualgo2.jpg.png) |
+| Imprimir con **Peek** | ![Push Visualgo](visualgo3.jpg.png) |
 
 ---
 
