@@ -144,11 +144,13 @@ Eliminación (Benjamín)
 
 | Momento                           | Descripción / Imagen               |
 | --------------------------------- | ---------------------------------- |
-| Representación física de la lista | `ListaEnlazada.jpg`                |
-| Inserción de “Elena”              | `InsertElena.jpg`                  |
-| Inserción de “Dalia”              | `InsertDalia.jpg`                  |
-| Eliminación de “Benjamín”         | `EliminarBenjamin.jpg`             |
-| Pseudocódigo                      | Captura o snippet del pseudocódigo |
+| Representación física de la lista | ListaEnlazada.jpg               |
+| Inserción de “Ana”                | InsertarAna.jpg                  |
+| Inserción de “Benjamin”           | InsertarBenjamin.jpg                  |
+| Pseudocodigo                      | pseudocódigo.jpg            |
+| Pseudocódigo                      | pseudocódigo1.jpg |
+| Pseudocódigo                      | pseudocódigo2.jpg |
+| Pseudocódigo                      | pseudocódigo3.jpg |
 
 
 Esta actividad permite entender la relación entre nodos y cómo se afectan al insertar o eliminar elementos.
