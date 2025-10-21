@@ -6,26 +6,29 @@ package Stack;
 
 /**
  *
- * @author Owen_04
+* Clase genérica que implementa una pila (Stack) usando un arreglo.
+ * Permite operaciones básicas: push, pop, peek y verificar si está vacía
+ 
+ * @author Luis Owen Jaramillo Guerrero
  */
 public class stackArray<T> implements isStack<T> {
-    private T[] elements;
-    private int top;
+    private T[] elements; // Arreglo que almacena los elementos de la pila
+    private int top; // Índice del elemento superior de la pila
 
     public stackArray(T[] elements, int top) {
         this.elements = elements;
         this.top = top;
     }
-    
+    //Constructor por defecto: pila con tamaño 30
     public stackArray(){
         elements = (T[])new Object [30];
     }
-
+    //Constructor con tamaño definido
     public stackArray(int size) {
         elements = (T[])new Object [size];
     }
     
-    
+    //Inserta un elemento en la cima de la pila
     @Override
     public void push(T elemento) {
         if (top < elements.length - 1) { 
@@ -36,7 +39,7 @@ public class stackArray<T> implements isStack<T> {
         System.out.println("La pila está llena. No se puede insertar.");
         } 
 } 
-
+    //Elimina y retorna el elemento en la cima de la pila
     @Override
     public T pop() {
         if (isEmpty()) {
@@ -47,7 +50,7 @@ public class stackArray<T> implements isStack<T> {
         top--;
         return elemento;
     }
-
+    //Retorna el elemento superior sin eliminarlo
     @Override
     public T peek() {
     if (isEmpty()) {
@@ -57,11 +60,17 @@ public class stackArray<T> implements isStack<T> {
     return (T) elements[top];
 }
 
-
+    //Retorna el elemento superior sin eliminarlo
     @Override
-    public boolean isEmpty() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public T peek() {
+        if (isEmpty()) {
+            System.out.println("Pila Vacía");
+            return null;
+        }
+        System.out.println("Conociendo el último de la pila");
+        return elements[top];
     }
     
     
 }
+
