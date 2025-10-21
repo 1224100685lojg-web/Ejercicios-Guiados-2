@@ -153,13 +153,7 @@ Eliminación (Benjamín)
 | Pseudocódigo                      | ![Pseucodigo](pseudocódigo3.jpg) |
 
 
-Esta actividad permite entender la relación entre nodos y cómo se afectan al insertar o eliminar elementos.
-
-Facilita la traducción de la manipulación física de nodos a pseudocódigo y Java.
-
-Se puede extender para listas dobles o circulares modificando los enlaces de los nodos.
-
 
 
 📅 *Ejercicios desarrollados como parte del módulo de estructuras de datos en Java – Octubre 2025*  
-👨‍💻 *Autor:* [Tu Nombre Aquí]
+👨‍💻 *Autor:* Luis Owen Jaramillo Guerrero
