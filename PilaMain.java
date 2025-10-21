@@ -6,7 +6,9 @@ package Stack;
 
 /**
  *
- * @author Owen_04
+ * Clase principal para probar la implementación de una pila usando arreglos (stackArray).
+ * Aquí se demuestran las operaciones básicas: push (insertar) y pop (eliminar) elementos.
+ * @author Luis Owen Jaramillo Guerrero
  */
 public class PilaMain {
 
@@ -31,3 +33,4 @@ public class PilaMain {
     }
 
  }
+
