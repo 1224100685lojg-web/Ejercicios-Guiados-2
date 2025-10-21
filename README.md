@@ -145,7 +145,7 @@ Eliminación (Benjamín)
 | Momento                           | Descripción / Imagen               |
 | --------------------------------- | ---------------------------------- |
 | Representación física de la lista | ![Lista Enlazada](ListaEnlazada.jpg)              |
-| Inserción de “Ana”                | ![InsertarAna](InsertAna.jpg)                  |
+| Inserción de “Ana”                | ![InsertarAna](Insert.jpgAna.jpg)                  |
 | Inserción de “Benjamin”           | ![InsertarBenjamin](InsertBenjamin.jpg)                 |
 | Pseudocodigo                      | ![Pseucodigo](pseudocódigo.jpg)            |
 | Pseudocódigo                      | ![Pseucodigo](pseudocódigo1.jpg) |
