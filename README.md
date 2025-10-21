@@ -43,6 +43,46 @@ Durante la actividad, representamos físicamente una lista: cada participante fu
 | **Polimorfismo** | Varias implementaciones (`PilaArray`, `PilaListaEnlazada`) pueden cumplir la misma interfaz. |
 
 ---
+## 🧮 Actividad: *Manipulación de una Pila en Visualgo.net*
+
+**Objetivo:** Comprender el comportamiento de una **pila (estructura LIFO: Last In, First Out)** mediante una simulación visual interactiva en [Visualgo.net](https://visualgo.net/en/list).
+
+---
+
+### 🧩 Descripción breve
+En esta práctica se exploró el funcionamiento de una **pila dinámica**, observando cómo los nodos se apilan y desapilan visualmente al aplicar las operaciones principales del TAD:
+
+- **Push:** Inserta un nuevo elemento en la cima.  
+- **Pop:** Elimina el último elemento agregado.  
+- **Peek:** Muestra el elemento superior sin eliminarlo.
+
+📋 **Pasos realizados:**
+1. Crear la pila con la opción **Create → User Defined List**.  
+2. Insertar elementos (`70`, `30`) con **Push**.  
+3. Eliminar elementos con **Pop | 1x**.  
+4. Usar **Peek** para identificar el nodo en la cabeza.  
+
+---
+
+### 💭 Reflexión
+- ¿Qué estructura se forma visualmente con los nodos?  
+- ¿Qué sucede si se realiza *pop* en una pila vacía?  
+- ¿Qué diferencia hay entre *push* y *pop*?  
+- Ejemplos de uso: **historial de navegador, deshacer/rehacer, llamadas recursivas, pilas de platos, compiladores.**
+
+---
+
+📸 *Evidencia:*
+| Acción | Imagen |
+|--------|--------|
+| Inserción con **Push** | ![Push Visualgo](./images/visualgo1.jpg) |
+| Eliminación con **Pop** | ![Pop Visualgo](./images/visualgo2.jpg) |
+
+---
+
+🧷 *Actividad guiada realizada en [Visualgo.net](https://visualgo.net/en/list) para reforzar el concepto de pila (LIFO) mediante simulación visual.*
+
+
 
 📅 *Ejercicios desarrollados como parte del módulo de estructuras de datos en Java – Octubre 2025*  
 👨‍💻 *Autor:* [Tu Nombre Aquí]
