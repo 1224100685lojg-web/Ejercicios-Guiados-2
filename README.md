@@ -30,8 +30,8 @@ Durante la actividad, representamos físicamente una lista: cada participante fu
 📸 *Evidencia:*
 | Parte del ejercicio | Imagen |
 |----------------------|--------|
-| Código de la interfaz `Pila` | ![Interfaz Pila](./images/pila1.jpg) |
-| Ejemplo de implementación | ![Implementación](./images/pila2.jpg) |
+| Código de la interfaz `Pila` | !Ver código](PilaMain.java)) |
+| Ejemplo de implementación | Ver código](stackArray.java)|
 
 ---
 
