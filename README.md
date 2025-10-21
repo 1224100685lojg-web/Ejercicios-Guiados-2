@@ -12,7 +12,7 @@ Durante la actividad, representamos físicamente una lista: cada participante fu
 📸 *Evidencia:*
 | Momento | Imagen |
 |----------|--------|
-| Representación de la lista | ![Lista Enlazada](./images/pila1.jpg.jpg) |
+| Representación de la lista | ![Lista Enlazada](pila1.jpg.jpg) |
 | Ejecución del método `.remove()` | ![Remove](pila2.jpg.jpg) |
 
 ---
