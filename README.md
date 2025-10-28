@@ -188,6 +188,24 @@ El usuario puede **agregar**, **atender** o **visualizar** tareas a través de u
 
 ---
 
+## 🧮 Actividad: *Ordenamiento Burbuja*
+
+**Objetivo:** Comprender el algoritmo de Bubble Sort simulando comparaciones e intercambios con tarjetas numeradas o con nozmbres. 
+
+---
+
+### 🧩 Descripción breve
+En esta práctica se exploró el funcionamiento del **ordenamiento por burbuja**, observando cómo es el que funciona el ordenamiento usando datos reales
+
+---
+
+📸 *Evidencia:*
+| Descripcion | Documento |
+|--------|--------|
+| Evidencia en pdf | ![Ordenamiento Burbuja](visualgo1.jpg.png) |
+
+---
+
 
 
 📅 *Ejercicios desarrollados como parte del módulo de estructuras de datos en Java – Octubre 2025*  
