@@ -188,7 +188,7 @@ El usuario puede **agregar**, **atender** o **visualizar** tareas a través de u
 
 ---
 
-## 🧮 Actividad: *Ordenamiento Burbuja*
+# 🧮 Actividad: *Ordenamiento Burbuja*
 
 **Objetivo:** Comprender el algoritmo de Bubble Sort simulando comparaciones e intercambios con tarjetas numeradas o con nozmbres. 
 
