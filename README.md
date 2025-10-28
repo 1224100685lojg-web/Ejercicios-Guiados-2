@@ -152,6 +152,41 @@ Eliminación (Benjamín)
 | Pseudocódigo                      | ![Pseucodigo](pseudocódigo2.jpg) |
 | Pseudocódigo                      | ![Pseucodigo](pseudocódigo3.jpg) |
 
+---
+
+# 🧩 Actividad 4 – Cola de Tareas con Menú Interactivo
+
+## 🎯 Objetivo
+Implementar una **estructura de datos tipo cola (FIFO: First In, First Out)** para gestionar una **cola de tareas pendientes**, integrando un **menú interactivo en consola**.
+
+---
+
+## 🧱 Descripción breve
+Se desarrolló un programa en **Java** que permite administrar una cola de tareas de manera dinámica.  
+El usuario puede **agregar**, **atender** o **visualizar** tareas a través de un **menú en consola**
+
+---
+
+## 🧩 Funcionalidades principales
+
+| Función | Descripción |
+|----------|--------------|
+| ➕ **Agregar tarea** | Inserta una nueva tarea al final de la cola. |
+| 🧾 **Atender tarea** | Elimina la primera tarea registrada (la más antigua). |
+| 👀 **Ver tareas pendientes** | Muestra todas las tareas actualmente en la cola. |
+| ❌ **Salir** | Finaliza la ejecución del programa. |
+
+---
+
+## 📸 Evidencia
+
+| Parte del ejercicio | Enlace |
+|----------------------|--------|
+| Código de la clase `ColaDeTareas` | [Ver código](ColaDeTareas.java) |
+| Código del menú principal `MenuColaDeTareas` | [Ver código](MenuColaDeTareas.java) |
+| 🎥 Demostración del menú interactivo | [Ver video](https://drive.google.com/tu_enlace_video) |
+
+---
 
 
 
