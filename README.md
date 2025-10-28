@@ -202,7 +202,7 @@ En esta práctica se exploró el funcionamiento del **ordenamiento por burbuja**
 📸 *Evidencia:*
 | Descripcion | Documento |
 |--------|--------|
-| Evidencia en pdf | ![Ordenamiento Burbuja](visualgo1.jpg.png) |
+| Evidencia en pdf | ![Ordenamiento Burbuja](111.pdf) |
 
 ---
 
