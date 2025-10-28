@@ -7,7 +7,17 @@ import java.util.Scanner;
 
 /**
  *
- * @author Owen_04
+* Contiene el método principal (main) que permite interactuar con el usuario
+ * mediante un menú en consola para administrar una cola de tareas.
+ * 
+ * Funcionalidades disponibles:
+ * 1. Ver la tarea que está al frente de la cola.
+ * 2. Ejecutar (eliminar) la tarea en el frente.
+ * 3. Ver todas las tareas pendientes.
+ * 4. Consultar el tamaño actual de la cola.
+ * 0. Salir del programa.
+ 
+ * @author Luis Owen Jaramillo Guerrero
  */
 public class MenuColaDeTareas {
 
@@ -15,12 +25,13 @@ public class MenuColaDeTareas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    // Se crea una instancia de ColaDeTareas y un objeto Scanner para la entrada de usuario
         ColaDeTareas tareas = new ColaDeTareas();
         Scanner sc = new Scanner(System.in);
         int opcion;
 
         tareas.cargarTareas(); // Carga las tareas predefinidas
-
+    // Bucle principal del menú
         do {
             System.out.println("\n--- MENÚ DE TAREAS ---");
             System.out.println("1. Ver tarea al frente");
@@ -51,10 +62,11 @@ public class MenuColaDeTareas {
                     System.out.println("Opción inválida.");
             }
         } while (opcion != 0);
-
+    // Cierre del scanner
         sc.close();
     }
 }
+
 
 
 
