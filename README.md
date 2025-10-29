@@ -144,13 +144,13 @@ Eliminación (Benjamín)
 
 | Momento                           | Descripción / Imagen               |
 | --------------------------------- | ---------------------------------- |
-| Representación física de la lista | ![Lista Enlazada](ListaEnlazada.jpg)              |
-| Inserción de “Ana”                | ![InsertarAna](Insert.jpgAna.jpg)                  |
-| Inserción de “Benjamin”           | ![InsertarBenjamin](InsertBenjamin.jpg)                 |
-| Pseudocodigo                      | ![Pseucodigo](pseudocódigo.jpg)            |
-| Pseudocódigo                      | ![Pseucodigo](pseudocódigo1.jpg) |
-| Pseudocódigo                      | ![Pseucodigo](pseudocódigo2.jpg) |
-| Pseudocódigo                      | ![Pseucodigo](pseudocódigo3.jpg) |
+| Representación física de la lista | [Ver imagen](ListaEnlazada.jpg)              |
+| Inserción de “Ana”                | [Ver imagen](Insert.jpgAna.jpg)                  |
+| Inserción de “Benjamin”           | [Ver imagen](InsertBenjamin.jpg)                 |
+| Pseudocodigo                      | [Ver imagen](pseudocódigo.jpg)            |
+| Pseudocódigo                      | [Ver imagen](pseudocódigo1.jpg) |
+| Pseudocódigo                      | [Ver imagen](pseudocódigo2.jpg) |
+| Pseudocódigo                      | [Ver imagen](pseudocódigo3.jpg) |
 
 ---
 
