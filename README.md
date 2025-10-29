@@ -13,7 +13,7 @@ Durante la actividad, representamos físicamente una lista: cada participante fu
 | Momento | Imagen |
 |----------|--------|
 | Representación de la lista |[Ver imagen](pila1.jpg.jpg) |
-| Ejecución del método `.remove()` | ![Remove](pila2.jpg.jpg) |
+| Ejecución del método `.remove()` | [Ver imagen](pila2.jpg.jpg) |
 
 ---
 
@@ -75,9 +75,9 @@ En esta práctica se exploró el funcionamiento de una **pila dinámica**, obser
 📸 *Evidencia:*
 | Acción | Imagen |
 |--------|--------|
-| Inserción con **Push** | ![Push Visualgo](visualgo1.jpg.png) |
-| Eliminación con **Pop** | ![Pop Visualgo](visualgo2.jpg.png) |
-| Imprimir con **Peek** | ![Push Visualgo](visualgo3.jpg.png) |
+| Inserción con **Push** | [Ver imagen](visualgo1.jpg.png) |
+| Eliminación con **Pop** | [Ver imagen](visualgo2.jpg.png) |
+| Imprimir con **Peek** | [Ver imagen](visualgo3.jpg.png) |
 
 ---
 
